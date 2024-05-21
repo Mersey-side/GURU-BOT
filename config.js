@@ -13,7 +13,7 @@ if (!ownervb) {
 
 const ownerlist = ownervb.split(';');
 
-global.owner = ["Merseyside ; 254102028964 ; true "];
+global.owner = ['Merseyside ; 254102028964 ; true '];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
