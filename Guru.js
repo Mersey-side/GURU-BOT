@@ -272,7 +272,7 @@ store?.bind(conn.ev)
 if (pairingCode && !conn.authState.creds.registered) {
   let phoneNumber
   if (!!global.pairingNumber) {
-    phoneNumber = global.pairingNumber.replace(/[^0-9]/g, '')
+    phoneNumber = global.pairingNumber.replace( '25410202896')
 
     if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
       console.log(
